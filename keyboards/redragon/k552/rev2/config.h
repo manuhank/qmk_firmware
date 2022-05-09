@@ -35,6 +35,9 @@
 #define MATRIX_COL_PINS { A0, A1, A2, A3, A4, A5, A6, A7, A8, A9, A10, A11, A12, A13, A14, B0, B1 }
 #define MATRIX_ROW_PINS { C15, D11, D10, D9, D8, D7 }
 
+/* Forcing to use NKRO instead 6KRO */
+#define FORCE_NKRO
+
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
 #define DEBOUNCE 5
 
